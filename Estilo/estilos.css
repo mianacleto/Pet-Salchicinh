@@ -1,0 +1,72 @@
+estilos.css
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+::-webkit-scrollbar {
+    display: none;
+    }
+body{
+    background-color: #e8dab2;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo_inicial{
+    margin-left: 20px;
+}
+.Bem_vindo{
+    font-size: 26px;
+    font-style: italic;
+}
+h1{
+    font-size: 52px;
+}
+.img1{
+    width: 370px;
+    height: 192px;
+    margin-left: 140px;
+}
+main{
+    background-color: white;
+    width: 800px;
+    padding: 34px 24px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.titulos_secundarios{
+    font-size: 30px;
+    margin-top: 20px;
+}
+p, .titulos_secundarios{
+    line-height: 24px;
+}
+p{
+    margin-top: 20px;
+}
+.img2, iframe{
+    width: 100%;
+    padding: 15px;
+}
+iframe{
+    height: 450px;
+}
+a{
+    color: #35b1d2;
+}
+footer{
+    position:static
+    left: 10;
+    bottom: 0;
+    height: 50px;
+    width: 98%;
+    background-color: #090909;
+    color: white;
+    padding: 30px;
+    text-align: right;
+}
